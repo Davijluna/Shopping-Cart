@@ -8,8 +8,7 @@ const lis = document.querySelector('.cart__items');
 botao.addEventListener('click', () => {
   const ol = document.querySelector('.cart__items');
   ol.innerHTML = '';
-  
-});
+  });
 
 function createProductImageElement(imageSource) {
   const img = document.createElement('img');
@@ -55,7 +54,7 @@ function createProductItemElement({ id: sku, title: name, thumbnail: image }) {
 }
 
 function getSkuFromProductItem(item) {
-  return item.querySelector('span.item__sku').innerText;
+  // return item.querySelector('span.item__sku').innerText;
 }
 
 window.onload = async () => {

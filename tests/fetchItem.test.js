@@ -28,9 +28,4 @@ describe('2 - Teste a função fecthItem', () => {
     const erro = new Error('You must provide an url');
     expect(await fetchItem()).toEqual(erro);
   })
-
-  it('Teste se o retorno da função fetchProducts com o argumento "computador" é uma estrutura de dados igual ao objeto computadorSearch, que já está importado no arquivo.', async () => {
-    await 
-  })
- // fail('Teste vazio');
 });

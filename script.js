@@ -72,7 +72,9 @@ function createProductItemElement({ id: sku, title: name, thumbnail: image }) {
   section.appendChild(createCustomElement('button', 'item__add', 'Adicionar ao carrinho!'));
   return section;
 }
+
 // obter Sku do item do produto
+
 function getSkuFromProductItem(item) {
 // return item.querySelector('span.item__sku').innerText;
 }
